@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -118,6 +123,9 @@ img {
   line-height: 1.07;
   letter-spacing: 1.12px;
   text-align: center;
+  width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .main-about .about-button {
   background-color: #4d5ae5;
@@ -129,6 +137,8 @@ img {
   letter-spacing: 0.64px;
   cursor: pointer;
   border: 0;
+  padding: 16px 32px;
+  border-radius: 4px;
 }
 .main-about button:hover {
   background-color: #404bbf;
@@ -140,8 +150,17 @@ img {
 .strategy-studio {
   background-color: #fff;
 }
+.strategy-studio > .second-title {
+  display: none;
+}
+.strategy-studio-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
 .strategy-studio li {
   text-align: left;
+  flex-basis: 264px;
 }
 .third-title {
   font-family: "Roboto", sans-serif;
@@ -150,6 +169,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.4px;
   color: #2e2f42;
+  margin-bottom: 8px;
+  padding-top: 32px;
 }
 .post-text {
   font-family: "Roboto", sans-serif;
@@ -157,6 +178,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: #434455;
+  padding-bottom: 32px;
 }
 /* our-team */
 .our-team {
@@ -172,24 +194,43 @@ img {
   letter-spacing: 0.72px;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.our-team-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 .our-team .our-team-element {
   background-color: #fff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 /* our-portfolio */
 .our-portfolio {
   background-color: #fff;
 }
+.our-portfolio-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+}
 .our-portfolio li {
+  flex-basis: calc((100% - 48px) / 3);
+  max-width: 360px;
   text-align: left;
   background-color: #fff;
+}
+.our-portfolio-box-text {
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
 }
 /* footer */
 footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
-
 .title-name {
   font-family: "Roboto", sans-serif;
   color: #f4f4fd;
@@ -199,5 +240,7 @@ footer {
   font-weight: 700;
 }
 footer .post-text {
+  padding-top: 16px;
   color: #f4f4fd;
+  width: 264px;
 }
