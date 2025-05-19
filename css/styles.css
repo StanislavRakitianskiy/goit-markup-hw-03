@@ -160,15 +160,24 @@ img {
 .strategy-studio {
   background-color: #fff;
 }
-.strategy-studio > .second-title {
-  display: none;
+.strategy-studio .second-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .strategy-studio-list {
   display: flex;
   justify-content: space-between;
   gap: 24px;
 }
-.strategy-studio li {
+.strategy-studio-list > .strategy-studio-elements {
   text-align: left;
   flex-basis: 264px;
 }
