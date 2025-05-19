@@ -29,10 +29,6 @@ ul {
   margin: 0;
   padding-left: 0;
 }
-.wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
-}
 .container {
   max-width: 1158px;
   margin: 0 auto;
