@@ -51,6 +51,10 @@ img {
   display: flex;
   align-items: center;
 }
+.headerblock .container {
+  justify-content: space-between;
+  align-items: center;
+}
 .title-name-first {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
