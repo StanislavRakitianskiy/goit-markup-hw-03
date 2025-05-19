@@ -269,6 +269,7 @@ img {
   flex-direction: column;
 }
 .footer-title {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   line-height: 1.17;
@@ -292,6 +293,4 @@ footer .post-text {
   width: 264px;
   padding: 0;
 }
-.footer-container a {
-  display: inline-block;
-}
+
