@@ -9,6 +9,7 @@ body {
   background-color: #ffffff;
 }
 a {
+  display: inline-block;
   text-decoration: none;
 }
 ul {
@@ -293,4 +294,3 @@ footer .post-text {
   width: 264px;
   padding: 0;
 }
-
