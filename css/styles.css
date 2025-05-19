@@ -265,6 +265,11 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
+.container-footer {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .footer-title {
   display: inline-block;
   font-family: "Raleway", sans-serif;
