@@ -45,7 +45,6 @@ img {
 .headerblock {
   background-color: #fff;
   border-bottom: 1px solid #e7e9fc;
-  
 }
 .nav-header {
   display: flex;
@@ -222,8 +221,12 @@ img {
 }
 .our-team .our-team-element {
   background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.our-team-text {
+  padding: 32px 0;
 }
 /* our-portfolio */
 .our-portfolio {
