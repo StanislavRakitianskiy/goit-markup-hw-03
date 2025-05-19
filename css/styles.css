@@ -50,7 +50,6 @@ img {
 .nav-header {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 .headerblock .container {
   justify-content: space-between;
@@ -77,6 +76,9 @@ img {
 .nav-link {
   display: flex;
   gap: 40px;
+}
+.nav-link li {
+  padding: 24px 0;
 }
 .nav-link .nav-link-element {
   font-family: "Roboto", sans-serif;
