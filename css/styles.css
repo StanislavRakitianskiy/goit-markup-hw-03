@@ -30,8 +30,10 @@ ul {
   padding-left: 0;
 }
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
 }
 section {
   padding: 120px 0;
@@ -42,14 +44,12 @@ img {
 /* header */
 .headerblock {
   background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   border-bottom: 1px solid #e7e9fc;
+  
 }
 .nav-header {
   display: flex;
-  gap: 76px;
+  align-items: center;
 }
 .title-name-first {
   font-family: "Raleway", sans-serif;
@@ -59,6 +59,7 @@ img {
   font-size: 18px;
   font-weight: 700;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .title-name-web {
   font-family: "Roboto", sans-serif;
@@ -71,6 +72,7 @@ img {
 .nav-link {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .nav-link .nav-link-element {
   font-family: "Roboto", sans-serif;
