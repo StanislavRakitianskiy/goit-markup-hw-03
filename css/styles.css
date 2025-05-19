@@ -55,7 +55,6 @@ img {
   align-items: center;
 }
 .title-name-first {
-  display: inline-block;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   line-height: 1.17;
@@ -204,6 +203,9 @@ img {
   text-align: center;
   background-color: #f4f4fd;
 }
+.our-team .container {
+  flex-direction: column;
+}
 .second-title {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
@@ -233,6 +235,9 @@ img {
 .our-portfolio {
   background-color: #fff;
 }
+.our-portfolio .container {
+  flex-direction: column;
+}
 .our-portfolio-list {
   display: flex;
   justify-content: space-between;
@@ -240,7 +245,7 @@ img {
   gap: 24px;
   row-gap: 48px;
 }
-.our-portfolio .our-portfolio-elements {
+.our-portfolio-elements {
   width: calc((100% - 48px) / 3);
   max-width: 360px;
   text-align: left;
@@ -258,6 +263,7 @@ footer {
   padding: 100px 0;
 }
 .footer-title {
+  display: inline-block;
   margin-bottom: 16px;
 }
 .title-name {
