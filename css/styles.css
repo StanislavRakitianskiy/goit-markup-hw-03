@@ -55,6 +55,7 @@ img {
   align-items: center;
 }
 .title-name-first {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   line-height: 1.17;
@@ -257,7 +258,6 @@ footer {
   padding: 100px 0;
 }
 .footer-title {
-  display: inline-block;
   margin-bottom: 16px;
 }
 .title-name {
